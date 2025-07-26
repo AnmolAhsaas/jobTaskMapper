@@ -1,0 +1,83 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "HR professional",
+        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+        "processing_timestamp": "2025-07-26T16:16:27"
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Fill in PDF Forms",
+            "importance_rank": 1,
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Share_2.pdf",
+            "section_title": "Annotations and drawing markup tools",
+            "importance_rank": 2,
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "section_title": "Using Create PDF cloud service for PDF",
+            "importance_rank": 3,
+            "page_number": 13
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "section_title": "Multiple document support in AI Assistant",
+            "importance_rank": 4,
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Signer's experience",
+            "importance_rank": 5,
+            "page_number": 8
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Fill in PDF Forms to fill in PDF forms . Visit our weekly Newsquiz gallery for more information . Submit your questions at the bottom of the page . Visit http://www.dailymailonline.com/newsquiz for more details .",
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Share_2.pdf",
+            "refined_text": "annotations and drawing markup tools are available for annotated annotations . They include annotations and markup tools such as annotations and annotations . The annotations are available to annotate and annotate annotated content using the markup tools . The markup tools include annotations, annotations, markup tools and other tools .",
+            "page_number": 2
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Using Create PDF cloud service for PDF . Create PDF service for free PDF . Use Create PDF to create a free PDF of your PDF book . Use the cloud service to create your own PDF book and print your own book in the cloud . Use printable book to print your book and create a book in a digital book .",
+            "page_number": 13
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "refined_text": "Multiple document support in AI Assistant features multiple document support for multiple documents . AI Assistant can also be used to help users navigate documents in multiple languages . Assistant will be able to read and write documents in a range of languages, including Chinese, Russian, Japanese and American .",
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Signer's experience with Signer . Signer: \"It's been a great experience. It's a great thing for the world,\" says Signer. Signer, who has been in the U.S. since 2000 . Signers: \"I'm glad to be here for the first time. I'm here to tell you about my life\"",
+            "page_number": 8
+        }
+    ]
+}

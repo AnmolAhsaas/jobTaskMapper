@@ -1,0 +1,77 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-26T20:50:33"
+    },
+    "extracted_sections": [
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Serve on lettuce leaves or whole grain bread.",
+            "importance_rank": 1,
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Place chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese.",
+            "importance_rank": 2,
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "section_title": "Cook fettuccine according to package instructions.",
+            "importance_rank": 3,
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Cornbread",
+            "importance_rank": 4,
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Breakfast Sandwich",
+            "importance_rank": 5,
+            "page_number": 5
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Serve on lettuce leaves or whole grain bread.. -.",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "Place chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese.. -.",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Mains_2.pdf",
+            "refined_text": "Cook fettuccine according to package instructions.. -.",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "Cornbread.",
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "Breakfast Sandwich.",
+            "page_number": 5
+        }
+    ]
+}
