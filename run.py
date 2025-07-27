@@ -11,9 +11,9 @@ from sentence_transformers import SentenceTransformer, util
 # nlp = spacy.load("en_core_web_sm")
 
 # --- Configurable paths (adjust as necessary) ---
-INPUT_FILE = "Collection 2/challenge1b_input.json"
-OUTPUT_FILE = "Collection 2/challenge1b_output.json"
-PDF_DIR = "Collection 2/PDFs"
+INPUT_FILE = "Collection 1/challenge1b_input.json"
+OUTPUT_FILE = "Collection 1/challenge1b_output.json"
+PDF_DIR = "Collection 1/PDFs"
 
 
 def get_body_font_size(page):
