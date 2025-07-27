@@ -13,64 +13,64 @@
         ],
         "persona": "Food Contractor",
         "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
-        "processing_timestamp": "2025-07-26T20:50:33"
+        "processing_timestamp": "2025-07-27T19:30:59"
     },
     "extracted_sections": [
         {
-            "document": "Lunch Ideas.pdf",
-            "section_title": "Serve on lettuce leaves or whole grain bread.",
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Gigantes Plaki",
             "importance_rank": 1,
-            "page_number": 4
-        },
-        {
-            "document": "Dinner Ideas - Mains_1.pdf",
-            "section_title": "Place chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese.",
-            "importance_rank": 2,
-            "page_number": 3
-        },
-        {
-            "document": "Dinner Ideas - Mains_2.pdf",
-            "section_title": "Cook fettuccine according to package instructions.",
-            "importance_rank": 3,
             "page_number": 12
         },
         {
-            "document": "Dinner Ideas - Sides_2.pdf",
-            "section_title": "Cornbread",
-            "importance_rank": 4,
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Aloo Gobi",
+            "importance_rank": 2,
             "page_number": 2
         },
         {
-            "document": "Breakfast Ideas.pdf",
-            "section_title": "Breakfast Sandwich",
+            "document": "Lunch Ideas.pdf",
+            "section_title": "Lettuce leaves or whole grain bread for serving",
+            "importance_rank": 3,
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Green Bean Casserole",
+            "importance_rank": 4,
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Potato Salad",
             "importance_rank": 5,
             "page_number": 5
         }
     ],
     "subsection_analysis": [
         {
-            "document": "Lunch Ideas.pdf",
-            "refined_text": "Serve on lettuce leaves or whole grain bread.. -.",
-            "page_number": 4
-        },
-        {
-            "document": "Dinner Ideas - Mains_1.pdf",
-            "refined_text": "Place chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese.. -.",
-            "page_number": 3
-        },
-        {
-            "document": "Dinner Ideas - Mains_2.pdf",
-            "refined_text": "Cook fettuccine according to package instructions.. -.",
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "Ingredients: 1 bunch spinach, 2 tablespoons sesame seeds, 1 tablespoon soy sauce, 1 tablespoon sugar, 1 tablespoon mirin. Instructions: Blanch spinach in boiling water, then rinse in cold water and squeeze out excess moisture. Toast sesame seeds and grind them. Mix sesame seeds with soy sauce, sugar, and mirin. Toss spinach with dressing and serve..",
             "page_number": 12
         },
         {
-            "document": "Dinner Ideas - Sides_2.pdf",
-            "refined_text": "Cornbread.",
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "Ingredients: 2 cups cooked risotto, 1/2 cup mozzarella, 1/2 cup flour, 2 eggs, 1 cup breadcrumbs, 1 cup vegetable oil. Instructions: Form risotto into balls and stuff with a cube of mozzarella. Dredge balls in flour, dip in beaten eggs, and coat with breadcrumbs. Fry in hot oil until golden. Drain on paper towels and serve warm..",
             "page_number": 2
         },
         {
-            "document": "Breakfast Ideas.pdf",
-            "refined_text": "Breakfast Sandwich.",
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "Instructions: In a bowl, combine the tuna, mayonnaise, Dijon mustard, celery, and red onion. Season with salt and pepper. Serve on lettuce leaves or whole grain bread..",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "Ingredients: 2 cucumbers, 1/4 cup sour cream, 2 tablespoons vinegar, 1 tablespoon sugar, 1 teaspoon dill, 1 teaspoon salt. Instructions: Slice cucumbers thinly. Mix sour cream, vinegar, sugar, dill, and salt in a bowl. Toss cucumbers with the dressing. Serve chilled..",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "Ingredients: 4 flour tortillas, 2 cups shredded cheese, 1/2 cup diced cooked chicken (optional), 1/4 cup chopped cilantro, 1 tablespoon vegetable oil. Instructions: Heat oil in a pan. Place a tortilla in the pan and sprinkle with cheese, chicken, and cilantro. Top with another tortilla. Cook until cheese is melted and tortilla is golden, then flip and cook the other side. Cut into wedges and serve..",
             "page_number": 5
         }
     ]
