@@ -28,6 +28,7 @@ jobTaskMapper/
 ├── run.py                          # Main application script
 ├── requirements.txt                # Python dependencies
 ├── .gitignore                      # Git ignore rules
+├── LICENSE                         # MIT License
 └── README.md                       # This file
 ```
 
@@ -164,53 +165,31 @@ Each collection requires:
     }
   ]
 }
-## Output Format
-
-The system generates detailed JSON output files with the following structure:
-
-### Output JSON Structure
-```json
-{
-  "metadata": {
-    "input_documents": ["list of processed files"],
-    "persona": "User persona description",
-    "job_to_be_done": "Task description",
-    "processing_timestamp": "timestamp",
-    "total_sections_found": "number"
-  },
-  "extracted_sections": [
-    {
-      "document": "source.pdf",
-      "section_title": "Section Title",
-      "importance_rank": 1,
-      "page_number": 1,
-      "relevance_score": 0.95
-    }
-  ],
-  "subsection_analysis": [
-    {
-      "document": "source.pdf",
-      "refined_text": "Relevant content text",
-      "page_number": 1,
-      "confidence_score": 0.87
-    }
-  ]
-}
 ```
 
-## Contributing
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a Pull Request
+## Key Features
+- **Persona-based Content Analysis**: Extracts sections relevant to specific user roles and tasks
+- **Semantic Similarity Matching**: Uses advanced NLP models to find contextually relevant content
+- **Importance Ranking**: Automatically ranks extracted sections by relevance
+- **Multi-collection Processing**: Handles multiple document sets simultaneously
+- **Structured JSON Output**: Provides clean, structured results with metadata
+- **Font-based Section Detection**: Identifies headings and sections using typography analysis
+
+## Technical Details
+
+### Text Extraction Process
+1. **PDF Parsing**: Uses PyMuPDF to extract text and formatting information
+2. **Font Analysis**: Identifies body text font size to distinguish headings
+3. **Section Detection**: Extracts sections based on font size variations
+4. **Content Filtering**: Removes short or irrelevant text segments
+
+### Semantic Analysis
+1. **Embedding Generation**: Creates semantic embeddings for job descriptions and content
+2. **Similarity Calculation**: Computes cosine similarity between job requirements and text sections
+3. **Ranking Algorithm**: Sorts sections by relevance score
+4. **Content Refinement**: Selects most relevant subsections for final output
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-For questions or issues, please create an issue in the repository or contact the development team.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-**Note**: This system is designed for automated document analysis and content extraction based on specific use cases and personas. Results may vary depending on document quality and complexity.
