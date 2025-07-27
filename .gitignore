@@ -1,0 +1,35 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output files (if generated)
+output/
+results/
+logs/
+
+# Python eggs
+*.egg-info/
+dist/
+build/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
